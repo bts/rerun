@@ -15,7 +15,7 @@ module Rerun
 
     # do we have growl or not?
     def growl?
-      mac? && (growlcmd != "")
+      false # mac? && (growlcmd != "")
     end
 
     def growlcmd
